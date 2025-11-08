@@ -1,0 +1,19 @@
+.contactInfo {
+    text-align: left;
+    padding: 40px;
+    color: #808080;
+}
+.contactItem {
+    background: #2c2c2c;
+    padding: 15px;
+    margin: 10px auto;
+    max-width: 400px;
+    display: flex;
+    align-items: left;
+    border-radius: 8px;
+    font-size: 18px;
+}
+.contactItem svg {
+    color: #ffffff;
+    margin-right: 10px;
+}

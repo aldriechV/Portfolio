@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;  
+}
+body{
+  background: #1c1c1c;
+  color: #F4F7F9;
+  font-size: 16px;
+}
+.container{
+min-height: 100vh;
+  transition: 0.5s;
+
+}
+.Landing{
+  padding-top: 100px;
+}
+/* Projects Grid CSS*/
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 30px;
+  padding: 40px;
+  justify-items: center;
+}
+
+
+/* Contact Card CSS */
+.contactWrapper {
+  display: flex;
+  justify-content: center; /* centers them horizontally */
+  align-items: flex-start;
+  gap: 20px; /* space between the two cards */
+  padding: 20px;
+  flex-wrap: wrap; /* allows them to stack on small screens */
+}
+
+.contactCard {
+  background-color: #222; /* or your desired background */
+  padding: 20px;
+  border-radius: 12px;
+  width: 400px; /* adjust as needed */
+}
+
+
