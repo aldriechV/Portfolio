@@ -11,7 +11,7 @@ const Card = (button) => {
                 <p className="card-desc"> { description } </p>
                 <div className ="button-container">
                     <button className="card-button"> More</button>
-                    <button className="card-button" onClick={projectLink}> <FaGithub style={{ marginRight: '8px' }} />
+                    <button className="card-button" onClick={() => window.open(projectLink, "_blank", "noopener,noreferrer")}> <FaGithub style={{ marginRight: '8px' }} />
         GitHub</button>
                 </div>
         </div>
