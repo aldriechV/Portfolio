@@ -7,7 +7,7 @@ export const projects = [
     {
         projectName: "MedicAi", 
         description: "Designed a website to aim and assist users in helping them determine if random spots or lesions on their skin are indicative of skin cancer.", 
-        projectLink: "https://github.com/aldriechV/CECS343Project"
+        projectLink: "https://github.com/TheAlex7/Marina-Hacks"
     },
     {
         projectName: "Happiness in the Haze", 
