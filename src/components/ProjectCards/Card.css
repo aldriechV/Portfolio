@@ -55,3 +55,18 @@
   justify-content: center; /* center horizontally inside card */
 }
 
+.card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  list-style-type: none;
+}
+
+.card-tag {
+  padding: 4px 10px;
+  font-size: 13px;
+  color: var(--accent);
+  background: rgba(0, 171, 240, 0.1);
+  border: 1px solid rgba(0, 171, 240, 0.3);
+  border-radius: 999px;
+}
