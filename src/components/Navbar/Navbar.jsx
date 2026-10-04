@@ -1,6 +1,4 @@
 import './Navbar.css'
-import logo_light from '../../assets/logo-black.png'
-
 
 const Navbar = () => {
 
@@ -16,6 +14,7 @@ const Navbar = () => {
         </div>
     </div>
   )
+  
 }
 
 export default Navbar
