@@ -19,13 +19,16 @@ const Card = (button) => {
 
                 {/* Tech stack spot goes here */}
                 {techStack.length > 0 && (
-                    <ul className="card-tags">
-                        {techStack.map((tech) => (
-                        <li key={tech} className="card-tag">{tech}</li>
-                        ))}
-                    </ul>
+                    <div className="card-stack">
+                        <span className="card-stack-label">Tech Stack:</span>
+                        <ul className="card-tags">
+                            {techStack.map((tech) => (
+                            <li key={tech} className="card-tag">{tech}</li>
+                            ))}
+                        </ul>
+                    </div>
                 )}
-                
+
                 <div className ="button-container">
                     <button className="card-button" onClick={() => window.open(projectLink, "_blank", "noopener,noreferrer")}> <FaGithub style={{ marginRight: '8px' }} />
         GitHub</button>

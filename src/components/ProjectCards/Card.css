@@ -55,6 +55,16 @@
   justify-content: center; /* center horizontally inside card */
 }
 
+
+/* Tech Stack area/section */
+
+.card-stack {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
 .card-tags {
   display: flex;
   flex-wrap: wrap;
