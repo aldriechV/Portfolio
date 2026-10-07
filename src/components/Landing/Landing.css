@@ -83,9 +83,10 @@
     width: 100%;
 }
 .landing-image img {
-  max-width: 100%;
-  height: auto;          /* Keeps aspect ratio */
-  max-height: 500px;     /* Optional: prevents it from getting too tall */
+  height: 75vh;          /* scales with the screen */
+  max-height: 800px;     /* stops it from getting huge on big monitors */
+  aspect-ratio: 4 / 5;   /* keeps a consistent shape */
+  width: auto;
+  object-fit: cover;
   border-radius: 12px;
-  object-fit: cover;     /* Crops if needed but keeps aspect ratio */
 }

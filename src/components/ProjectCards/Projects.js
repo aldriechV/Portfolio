@@ -30,10 +30,14 @@ export const projects = [
         projectLink: "https://devpost.com/software/happiness-in-the-haze?_gl=1*1h89oz6*_gcl_au*MjA5NzcyOTgzNS4xNzUyMTk2MTE2*_ga*MjA4MDU4MzU0OS4xNzUyMTk2MTE2*_ga_0YHJK3Y10M*czE3NTQ2MTQyMjMkbzIkZzEkdDE3NTQ2MTQyODYkajU3JGwwJGgw"
     },
     {
-        projectName: "The Missed Ride", 
-        description: "Conducted a research study and proposal on improving Uber drivers first drive return rate.", 
-        techStack: ["Research", "Data Analysis"],
-        projectLink: "https://github.com/aldriechV/UCI-Datathon-2025"
+        projectName: "OCTA Garden Grove Receipt Automation", 
+        description: [
+            "• Created a receipt sorter to automate the sorting process for daily maintenance receipts for the busses at OCTA.",
+            "• Sorted and cleaned a database consisting of 9,000 existing entries.",
+            "• Documented and instructed users within meetings in order to implement automation into a workflow."
+        ],
+        
+        techStack: ["Sharepoint", "Power Automate"],
     },
     {
         projectName: "Apartment Management System", 
