@@ -1,0 +1,20 @@
+
+/* Apply predictable sizing to every element */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default page spacing */
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+/* Set the page's default appearance */
+body {
+  width: 100%;
+  overflow-x: clip;
+}
